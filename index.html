@@ -387,6 +387,21 @@
                     </li>
                 </ul>
             </div>
+            <form class="footer-form" autocomplete="off">
+                <p class="subscribe">Подпишитесь на рассылку</p>
+                <div class="footer-form-container">
+                    <div class="footer-form-field">
+                        <input class="footer-form-input" type="email" name="mail" id="mail" placeholder=" ">
+                        <label class="footer-form-label" for="mail">E-mail</label>
+                    </div>
+                    <button class="footer-form-button" type="submit">
+                        Подписаться
+                        <svg class="footer-form-button-icon">
+                            <use href="./images/sprite.svg#send"></use>
+                        </svg>
+                    </button>
+                </div>
+            </form>
         </div>
     </footer>
 
@@ -397,6 +412,46 @@
                     <use href="./images/sprite.svg#cross"></use>
                 </svg>
             </button>
+            <form autocomplete="off">
+                <p class="form-call">Оставьте свои данные, мы вам перезвоним</p>
+                <div class="form-field">
+                    <label class="form-label" for="name">Имя</label>
+                    <div class="form-input-wrapper">
+                        <input class="form-input" type="text" name="name" id="name">
+                        <svg class="form-input-icon">
+                            <use href="./images/sprite.svg#personblack"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="form-field">
+                    <label class="form-label" for="phone">Телефон</label>
+                    <div class="form-input-wrapper">
+                        <input class="form-input" type="tel" name="phone" id="phone">
+                        <svg class="form-input-icon">
+                            <use href="./images/sprite.svg#phoneblack"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="form-field">
+                    <label class="form-label" for="mail">Почта</label>
+                    <div class="form-input-wrapper">
+                        <input class="form-input" type="email" name="mail" id="mail">
+                        <svg class="form-input-icon">
+                            <use href="./images/sprite.svg#emailblack"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="form-field">
+                    <label class="form-label" for="comment">Комментарий</label>
+                    <textarea class="form-comment" name="comment" id="comment" placeholder="Введите текст"></textarea>
+                </div>
+                <div class="form-policy-wrapper">
+                    <input type="checkbox" class="form-policy visually-hidden" name="policy" id="policy" value="accept-policy">
+                    <label for="policy" class="form-policy-label">Соглашаюсь с рассылкой и принимаю <a href="" class="form-policy-label-link">Условия договора</a></label>
+                </div>
+                <button type="submit" class="form-button">Отправить</button>
+
+            </form>
         </div>
     </div>
 
